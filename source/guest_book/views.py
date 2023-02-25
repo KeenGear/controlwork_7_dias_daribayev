@@ -10,10 +10,10 @@ from .forms import BookForm
 def book_list(request):
     search_post = request.GET.get('search')
     if search_post:
-        guest = Book.objects.filter(Q(author=search_post))
+        book = Book.objects.filter(Q(author=search_post))
     else:
-        guest = Book.objects.filter(Q(status='Active'))
-    return render(request, 'book_list.html', {'books': guest})
+        book = Book.objects.filter(Q(status='Active'))
+    return render(request, 'book_list.html', {'books': book})
 
 
 def book_create(request):
