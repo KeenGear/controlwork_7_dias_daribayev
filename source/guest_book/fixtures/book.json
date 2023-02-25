@@ -1,0 +1,86 @@
+[
+{
+    "model": "guest_book.book",
+    "pk": 1,
+    "fields": {
+        "author": "John Doe",
+        "email": "john_doe@mail.com",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa ea facere, ipsa iusto sed vitae.",
+        "status": "Active",
+        "created_at": "2023-02-25T05:38:59.013Z",
+        "updated_at": "2023-02-25T05:38:59.014Z"
+    }
+},
+{
+    "model": "guest_book.book",
+    "pk": 2,
+    "fields": {
+        "author": "Lex",
+        "email": "lex@mail.com",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa ea facere, ipsa iusto sed vitae.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa ea facere, ipsa iusto sed vitae.",
+        "status": "Active",
+        "created_at": "2023-02-25T05:39:39.102Z",
+        "updated_at": "2023-02-25T05:39:39.102Z"
+    }
+},
+{
+    "model": "guest_book.book",
+    "pk": 3,
+    "fields": {
+        "author": "Alex",
+        "email": "alex@mail.com",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa ea facere, ipsa iusto sed vitae.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa ea facere, ipsa iusto sed vitae.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa ea facere, ipsa iusto sed vitae.",
+        "status": "Blocked",
+        "created_at": "2023-02-25T05:39:59.714Z",
+        "updated_at": "2023-02-25T05:39:59.714Z"
+    }
+},
+{
+    "model": "guest_book.book",
+    "pk": 4,
+    "fields": {
+        "author": "Thanos",
+        "email": "thanos@mail.com",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa ea facere, ipsa iusto sed vitae.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa ea facere, ipsa iusto sed vitae.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa ea facere, ipsa iusto sed vitae.",
+        "status": "Active",
+        "created_at": "2023-02-25T05:40:21.069Z",
+        "updated_at": "2023-02-25T05:40:21.069Z"
+    }
+},
+{
+    "model": "guest_book.book",
+    "pk": 5,
+    "fields": {
+        "author": "Kenny",
+        "email": "kenny@mail.com",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa ea facere, ipsa iusto sed vitae.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa ea facere, ipsa iusto sed vitae.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa ea facere, ipsa iusto sed vitae.",
+        "status": "Active",
+        "created_at": "2023-02-25T05:40:40.606Z",
+        "updated_at": "2023-02-25T05:40:40.606Z"
+    }
+},
+{
+    "model": "guest_book.book",
+    "pk": 7,
+    "fields": {
+        "author": "Kevin",
+        "email": "kevin_doe@mail.com",
+        "text": "asdknaskfnasjhvjhjhavjhdsf",
+        "status": "Active",
+        "created_at": "2023-02-25T07:39:01.380Z",
+        "updated_at": "2023-02-25T07:39:01.380Z"
+    }
+},
+{
+    "model": "guest_book.book",
+    "pk": 8,
+    "fields": {
+        "author": "Jenny Doe",
+        "email": "jenny_doe@gmail.com",
+        "text": "asdasjdbjkabfajklsbfgkjasfgblajkf bjs l",
+        "status": "Blocked",
+        "created_at": "2023-02-25T07:41:23.862Z",
+        "updated_at": "2023-02-25T07:41:33.871Z"
+    }
+}
+]
