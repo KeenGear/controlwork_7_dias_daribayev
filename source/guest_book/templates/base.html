@@ -17,6 +17,10 @@
                     <a href="{% url 'book_create' %}" class="nav-link">Create New</a>
                 </li>
             </ul>
+            <form class="d-flex float-end" role="search" action="{% url 'book_list' %}">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="search">
+            <button class="btn btn-outline-primary" type="submit">Search</button>
+          </form>
         </header>
     </div>
     <div class="container">
