@@ -1,3 +1,4 @@
+from django.db.models import Q
 from django.shortcuts import render, get_object_or_404, redirect
 from django.urls import reverse_lazy
 from django.views.generic import DeleteView
@@ -7,8 +8,12 @@ from .forms import BookForm
 
 
 def book_list(request):
-    books = Book.objects.all()
-    return render(request, 'book_list.html', {'books': books})
+    search_post = request.GET.get('search')
+    if search_post:
+        guest = Book.objects.filter(Q(author=search_post))
+    else:
+        guest = Book.objects.filter(Q(status='Active'))
+    return render(request, 'book_list.html', {'books': guest})
 
 
 def book_create(request):
@@ -20,8 +25,8 @@ def book_create(request):
 
 
 def book_update(request, pk):
-    task = get_object_or_404(Book, pk=pk)
-    form = BookForm(request.POST or None, instance=task)
+    book = get_object_or_404(Book, pk=pk)
+    form = BookForm(request.POST or None, instance=book)
     if form.is_valid():
         form.save()
         return redirect('book_list')
